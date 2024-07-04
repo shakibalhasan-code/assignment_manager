@@ -5,5 +5,7 @@ class NetworkConst {
   static const String login = '$_baseUrl/login';
   static const String createTask = '$_baseUrl/createTask';
   static const String allTask = '$_baseUrl/all-tasks';
+  static const String updateProfile = '$_baseUrl/profile/update';
+  static const String getUserProfile = '$_baseUrl/user';
 
 }

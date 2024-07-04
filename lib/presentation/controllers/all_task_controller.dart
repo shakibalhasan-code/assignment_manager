@@ -15,9 +15,8 @@ class AllTaskController extends GetxController{
   void onInit(){
     super.onInit();
     allTask();
-
-
   }
+
   bool get inProgress => _inProgress;
   String get errorMessage => _errorMessage ?? 'Internet failed! Try again';
 
